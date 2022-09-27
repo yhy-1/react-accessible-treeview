@@ -9,7 +9,7 @@ module.exports = {
   title: "react-accessible-treeview",
   tagline:
     "A React component that implements the treeview pattern as described by the WAI-ARIA Authoring Practices.",
-  url: "https://react-accessible-treeview.netlify.com",
+  url: "https://rc-treeview.netlify.com",
   baseUrl: "/",
   favicon: "static/favicon.ico",
   organizationName: "lissitz", // Usually your GitHub org/user name.
