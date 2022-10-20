@@ -1,0 +1,45 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "prepare": "relative-deps"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.1.0",
+    "@docusaurus/preset-classic": "^2.1.0",
+    "@reach/tabs": "^0.1.6",
+    "@reach/tooltip": "^0.2.2",
+    "classnames": "^2.2.6",
+    "react": "^16.8.4",
+    "react-accessible-treeview": "^2.2.0",
+    "react-dom": "^16.8.4",
+    "react-icons": "^3.7.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "relativeDependencies": {
+    "react-accessible-treeview": "../"
+  },
+  "devDependencies": {
+    "raw-loader": "^3.1.0",
+    "relative-deps": "^1.0.7",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
